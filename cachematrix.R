@@ -1,5 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Calculating the inverse of a large matrix can be computationally expensive.
+## These functions store the inverse of a matrix  in the parent 
+## environment of the function once calculated, and allow the retrieval 
+## of the saved inverse if available in the parent environment.
 
 ## makeCacheMatrix creates a matrix and provides functions to 
 ## retrieve the matrix and its inverse, and to overwrite the 
